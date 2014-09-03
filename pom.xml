@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
      <modelVersion>4.0.0</modelVersion>
     <groupID>me.RobertoD26.Fireworkjoin</groupID>
     <artifactId>FireworkJoin</artifactId>
@@ -20,4 +20,21 @@
         	<scope>provided</scope>
         </dependency>
     </dependencies>
+    
+    <build></build>
+    	<resources>
+    		<resource>
+    			<directory>src/main/resources</directory>
+    			<filtering>true</filtering>
+    		</resource>
+    	</resources>
+    <ciManagement>
+    	<system>jenkins</system>
+    	<url>http://ec2-54-91-134-168.compute-1.amazonaws.com/jenkins/</url>
+    </ciManagement>
+    <issueManagement>
+    	<system>MantisHub</system>
+    	<url>https://voltaplugindev.mantishub.com/</url>
+    </issueManagement>
+    <groupId>org.bukkit</groupId>
 </project>
