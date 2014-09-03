@@ -15,8 +15,8 @@
   </ciManagement>
   <dependencies>
     <dependency>
-      <groupId>org.bukkit.craftbukkit</groupId>
-      <artifactId>bukkit</artifactId>
+      <groupId>org.bukkit</groupId>
+      <artifactId>craftbukkit</artifactId>
       <version>1.7.9</version>
       <scope>compile</scope>
     </dependency>
